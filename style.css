@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Montserrat:wght@400;700&family=Nunito+Sans:ital,wght@1,300&family=Poppins:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: darksalmon;
+}
+.college_name{
+    text-align: center;
+    font-weight: 900;
+    color: #fff;
+    margin: 1rem 0 0 0;
+    border-bottom: 1px solid;
+}
+.logo{
+    width: 2rem;
+    border-radius: 1rem;
+    background-color: transparent;
+}
+.nav_link{
+    font-weight: 300;
+    color: #000 !important;
+    font-family: 'Open Sans', sans-serif;
+}
+.book_table{
+    font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+table, th, td{
+  padding: 10px 20px;
+  border-bottom:1px solid gray;
+  border-top:1px solid gray;
+}
+th{
+    color: #fff;
+    background-color: springgreen;
+}
+td{
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.class{
+    text-transform: uppercase;
+}
+.edit{
+    width: 3rem;
+    border: none;
+    color: #fff;
+    background-color: red;
+}
+.edit:hover{
+   color: blue;
+   }
+.delete{
+    width: 5rem;
+    background-color: blue;
+    border: none;
+    color: #fff;
+}
+.delete:hover{
+    color: blue;
+    background-color: #fff;
+}
+.update_form{
+    background-color: #fff;
+    width: 24rem;
+    margin: 0 auto;
+    padding: 4px 10px;
+    border-radius: 8px;
+    position: relative;
+    top: -16rem;
+    display: none;
+}
+.remove_update_form{
+    position: absolute;
+    right: 1rem;
+    border: 1px solid;
+    width: 2rem;
+    text-align: center;
+    height: 32px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.remove_update_form:hover{
+    background-color: #000;
+    color: #fff;
+}
+.addbook_form{
+    width: 23rem;
+}
+.add_book{
+    margin: 2rem auto;
+    width: 20rem;
+}
+.addbook_handing{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    color: snow;
+    font-size: 2rem;
+}
+label{
+    color: #181a1a;
+    font-weight: 400;
+    font-family: 'Noto Sans', sans-serif;
+}
+.add_btn{
+    width: 15rem;
+    border: none;
+    color: #fff;
+    background-color: steelblue;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 6px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.error{
+    background-color: tomato;
+    color: #fff;
+    text-align: center;
+}
+.success{
+    background-color: limegreen;
+    color: #fff;
+    text-align: center;
+}
+
